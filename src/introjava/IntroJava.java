@@ -5,6 +5,8 @@
  */
 package introjava;
 
+import java.util.Scanner;
+
 /**
  *
  * @author noite
@@ -16,6 +18,18 @@ public class IntroJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        Scanner teste = new Scanner(System.in);
+        System.out.println("informe um valor");
+        int retorno = teste.nextInt();
+        
+        while (retorno !=0) {
+            System.out.println("informe outro  valor");
+            retorno = teste.nextInt();                  
+        }
+        System.out.println("informado com sucesso");
+        
     }
     
 }
