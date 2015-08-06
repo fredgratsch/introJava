@@ -15,14 +15,25 @@ public class Animal {
     int peso;
     String CorDosOlhos;
     
-    public int Comer(){
-    
-    return 1;
+    public String Comer(String mensagem){
+        System.out.println("quero comer");
+        String resultado = "mais";
+        if(mensagem != "mais"){
+            System.out.println("satisfeito");
+           resultado = "Obrigado";
+        }else{
+            System.out.println("Ainda estou com fome quero comer");
+        }        
+        return resultado;
     }
     
     public int Dormir(){
-    
+     System.out.println("bucho cheio e agora vou JIBOIAR");
     return 1;
+    }
+
+    String Comer() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
