@@ -10,5 +10,11 @@ package introjava;
  * @author noite
  */
 public class Repiteis {
+   String TipoEscamas = null;
+   int CumprimentoCalda;
     
+    public int Reatejar(){
+    
+    return 1;
+    }
 }

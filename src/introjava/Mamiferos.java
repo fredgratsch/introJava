@@ -10,5 +10,17 @@ package introjava;
  * @author noite
  */
 public class Mamiferos {
+    String CorDosPelos = null;
+    int CumprimentoPelos;
     
+    
+    public int Sentar(){
+    
+    return 1;
+    }
+    
+    public int Amamentar(){
+    
+    return 1;
+    }
 }
